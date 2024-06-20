@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'krilloud-icons';
+  src:  url('../assets/fonts/krilloud-icons.eot');
+  src:  url('../assets/fonts/krilloud-icons.eot?tnupnx#iefix') format('embedded-opentype'),
+    url('../assets/fonts/krilloud-icons.ttf?tnupnx') format('truetype'),
+    url('../assets/fonts/krilloud-icons.woff?tnupnx') format('woff'),
+    url('../assets/fonts/krilloud-icons.svg?tnupnx#krilloud-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'krilloud-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-folder-closed:before {
+  content: "\e900";
+  color: #a4bbbf;
+}
+.icon-folder-closed:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-folder-open:before {
+  content: "\e901";
+  color: #a4bbbf;
+}
+.icon-folder-open:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon--delete:before {
+  content: "\e902";
+  color: #f0f7f7;
+}
+
+
+.icon-icon-delete:before {
+  content: "\e902";
+  color: #a4bbbf;
+}
+.icon-icon-add-small:before {
+  content: "\e903";
+  color: #a4bbbf;
+}
+
+.icon-icon-add-small:hover:before {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-arrow-right:before {
+  content: "\e904";
+  color: #a4bbbf;
+}
+.icon-icon-arrow:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-chevron-down:before {
+  content: "\e905";
+  color: #a4bbbf;
+}
+
+.icon-icon-chevron-down:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-chevron-up:before {
+  content: "\e906";
+  color: #a4bbbf;
+}
+.icon-icon-chevron-up:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+
+.icon-icon-close-1 .path1:before {
+  content: "\e907";
+  color: rgb(255, 255, 255);
+}
+.icon-icon-close-1 .path1:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+
+.icon-icon-close-1:before {
+  content: "\e908";
+  color: rgb(49, 72, 76);
+  background-color: white;
+  border-radius: 8px;
+}
+
+.icon-icon-close:before {
+  content: "\e909";
+  color: #31484c;
+}
+.icon-icon-close:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+
+.icon-icon-search:before {
+  content: "\e90a";
+  color: #31484c;
+}
+
+.icon-icon-search:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-slide:before {
+  content: "\e90b";
+  color: #31484c;
+}
+.icon-icon-slide:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-small-chevron-down:before {
+  content: "\e90c";
+  color: #31484c;
+}
+
+.icon-icon-small-chevron-down:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-view:before {
+  content: "\e90d";
+  color: #31484c;
+}
+.icon-icon-view:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-zoom-in:before {
+  content: "\e90e";
+  color: #a4bbbf;
+}
+.icon-icon-zoom-in:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+
+.icon-icon-zoom-out:before {
+  content: "\e90f";
+  color: #a4bbbf;
+}
+.icon-icon-zoom-out:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+.icon-icon-add:before {
+  content: "\e910";
+  color: #54747A;
+}
+.icon-icon-add:hover {
+  /* Filtro para white */
+  filter: invert(86%) sepia(100%) saturate(8%) hue-rotate(152deg) brightness(150%) contrast(102%);
+}
+
+.icon-icon-add-inverse:before {
+  content: "\e910";
+  color: #A4BBBF;
+}
+.icon-icon-add-inverse:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+}
+
+
+
+.icon-icon-edit:before {
+  z-index: 99999;
+  content: "\e911";
+  color: #f0f7f7;
+}
+
+/* .icon-icon-edit:hover {
+  filter: invert(42%) sepia(23%) saturate(463%) hue-rotate(142deg) brightness(95%) contrast(86%);
+} */
+
+.icon-icon-edit-c:before {
+  content: "\e911";
+  color:#54747A;
+}
+
+.icon-icon-edit-sh:before {
+  content: "\e911";
+  color: #a4bbbf;
+}
+
+.icon-icon-clone:before {
+  content: "\e913";
+  color: #f0f7f7;
+}
+

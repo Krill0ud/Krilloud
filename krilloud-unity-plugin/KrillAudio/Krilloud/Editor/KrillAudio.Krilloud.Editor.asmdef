@@ -1,0 +1,17 @@
+{
+    "name": "KrillAudio.Krilloud.Editor",
+    "references": [
+        "GUID:01ede07267337d54bb2805c74f3dff22"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

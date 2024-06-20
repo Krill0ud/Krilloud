@@ -1,0 +1,8 @@
+{
+  "name": "com.krillaudio.krilloud.examples",
+  "displayName": "Krilloud.Examples",
+  "version": "0.1.0",
+  "dependencies": {
+    "com.krillaudio.krilloud": ""
+  }
+}

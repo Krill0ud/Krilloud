@@ -1,0 +1,8 @@
+{
+  "name": "com.krillaudio.krilloud.tools",
+  "displayName": "Krilloud.Tools",
+  "version": "0.1.0",
+  "dependencies": {
+    "com.krillaudio.krilloud": ""
+  }
+}

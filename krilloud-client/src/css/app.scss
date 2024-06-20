@@ -1,0 +1,72 @@
+@import './utilities/_variables.scss';
+@import './utilities/_mixins.scss';
+@import './components/_node.scss';
+@import './components/_socket.scss';
+@import './components/_layout.scss';
+@import './components/_sidebar.scss';
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.bg-base {
+  background-color: $base;
+}
+
+.primary-text {
+  color: $mid-text
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.q-tree {
+  .q-tree__node-header {
+    padding-left: 0 !important;
+  }
+
+  /* .q-item--dense {
+    // padding-left: 2px !important
+  } */
+
+}
+
+.cursor-copy-variable{
+  cursor: url('~assets/img/variable-connector-m.svg'), auto;
+}
+.cursor-copy-audio{
+  cursor: url('~assets/img/audio-connector-m.svg'), auto;
+}
+
+.cursor-default {
+  cursor: default
+}
+
+
+.my-sticky {
+  position: fixed;
+  z-index: 1;
+  width: 100%
+}
+
+
+
+.remove-icon {
+  .q-icon {
+    font-size: 14px !important;
+    color: $mid-grey;
+  }
+  :hover {
+    .q-icon {
+      color: #fff;
+    }
+  }
+
+}

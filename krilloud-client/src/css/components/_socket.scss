@@ -1,0 +1,123 @@
+@import "../utilities/_variables.scss";
+
+.socket {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 12px !important;
+  border: 2px solid $white !important;
+  margin: 0px !important;
+}
+
+.socket-connected-audio > div {
+  background: $audio-dark !important;
+  border: 2px solid $white !important
+}
+
+.socket-connected-variable > div {
+  background: $variable-dark !important;
+}
+
+
+
+/*OUTPUT*/
+.socket.output.audio {
+  background: $audio-dark;
+  margin-left: 7px !important;
+
+ background: no-repeat center url('~assets/img/audio-connector.svg');
+ // background: no-repeat center url('/img/audio-connector.svg') !important;
+}
+.socket.output-row.audio {
+  background: $audio-dark !important;
+  margin-left: 7px !important;
+
+}
+.socket.output.audio.socket-connected {
+  background-color: yellow;
+}
+
+
+.socket.output.variable {
+  background: no-repeat center url('~assets/img/variable-connector.svg');
+  // background: $variable-dark;
+  margin-left: 7px !important;
+}
+
+/*INPUT*/
+
+.socket.input.audio {
+  background: no-repeat center url('~assets/img/audio-connector.svg');
+  margin-left: -11px !important
+
+
+}
+.socket.input.variable {
+  background: no-repeat center url('~assets/img/variable-connector.svg');
+}
+
+/*specific styles each node*/
+.selector {
+  .socket.input.variable{
+    margin-left: -11px !important;
+    border: 2px solid $selector !important
+  }
+  .socket.input.audio{
+    border: 2px solid $selector !important
+  }
+  .socket.output.audio {
+    border: 2px solid $selector !important
+  }
+}
+.mixer {
+  .socket.input.variable{
+    border: 2px solid $mixer !important;
+    margin-left: -11px !important
+  }
+  .socket.input.audio{
+    border: 2px solid $mixer !important;
+    margin-left: -11px !important
+  }
+  .socket.output.audio {
+    border: 2px solid $mixer !important;
+  }
+}
+
+.filter {
+  .socket.input.variable {
+    margin-left: -9px !important;
+    margin-top: 10px !important;
+  }
+  .socket.input.audio {
+    border: 2px solid $effect !important;;
+  }
+  .socket.input.variable {
+    border: 2px solid $effect !important;;
+  }
+  .socket.output.audio {
+    border: 2px solid $effect !important;
+
+  }
+}
+
+
+
+
+.audio-container .socket.output.audio {
+  border: 2px solid $audio !important;
+}
+
+.variable .socket.output.variable {
+  border: 2px solid $variable !important
+}
+
+.connection .main-path {
+  stroke: $idle-grey !important;
+}
+
+.socket-input-audio.socket-output-audio .main-path {
+  stroke: $audio-dark !important;
+}
+
+.socket-output-variable .main-path {
+  stroke: $variable-dark !important;
+}

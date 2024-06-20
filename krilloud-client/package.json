@@ -1,0 +1,79 @@
+{
+  "name": "krilloud-client",
+  "version": "1.0.0",
+  "description": "Krilloud client",
+  "productName": "Krilloud",
+  "author": "Krilloud Team <dani@krillaudio.com> <kiko@krillaudio.com>",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Krill0ud/Krilloud"
+  },
+  "scripts": {
+    "electron": "quasar dev -m electron",
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build -m electron"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@quasar/extras": "^1.9.17",
+    "axios": "^0.21.4",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffi-napi": "^3.1.0",
+    "ip": "^1.1.5",
+    "morgan": "^1.10.0",
+    "quasar": "^1.15.3",
+    "ref-array-di": "^1.2.2",
+    "rete": "^1.4.5-rc.1",
+    "rete-area-plugin": "^0.2.1",
+    "rete-connection-plugin": "^0.9.0",
+    "rete-context-menu-plugin": "^0.6.0-rc.1",
+    "rete-history-plugin": "^0.2.2",
+    "rete-module-plugin": "^0.4.2",
+    "rete-vue-render-plugin": "^0.5.0",
+    "vue": "^2.7.16",
+    "vue-clipboard2": "^0.3.1",
+    "vue-i18n": "^8.24.0",
+    "vue-shortkey": "^3.1.7",
+    "vue-template-compiler": "^2.7.16",
+    "vue-tree-list": "^1.5.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "@quasar/quasar-app-extension-dotenv": "^1.1.0",
+    "babel-eslint": "^10.0.1",
+    "devtron": "^1.4.0",
+    "electron": "^9.4.0",
+    "electron-builder": "^22.9.1",
+    "electron-debug": "^3.2.0",
+    "electron-devtools-installer": "^3.1.1",
+    "electron-packager": "^14.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

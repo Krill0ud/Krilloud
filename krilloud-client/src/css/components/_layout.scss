@@ -1,0 +1,156 @@
+
+@import "../utilities/_variables.scss";
+@import "../utilities/_mixins.scss";
+
+#rete {
+  width: 100%;
+  height: 100%;
+}
+.node-editor{
+  background-size: $grid-size $grid-size;
+  background-image: linear-gradient(to right, $canvas 2px, transparent 2px), linear-gradient(to bottom, $canvas 2px, transparent 2px);
+  background-color:  darken($canvas, 4%);
+  overflow: hidden;
+  box-sizing: border-box
+}
+
+.play {
+  background: no-repeat center url('~assets/img/play.svg') !important;
+  width: 40px;
+  height: 40px;
+}
+
+.stop {
+  background: no-repeat center url('~assets/img/stop.svg') !important;
+  width: 40px;
+  height: 40px;
+}
+
+.retrigger {
+  font: normal normal normal 14px/14px $unnamed-font-family-overpass;
+  color: $mid-text;
+  font-size: 12px;
+  font-weight: $unnamed-font-weight-bolder;
+  margin-top: -9px;
+}
+
+.retrigger-toggle {
+  background-color: $mid-text;
+}
+
+.notify {
+  width: auto;
+  height: auto;
+  padding: 6px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1.2px solid #f0134e;
+  color: #f0134e;
+  font-weight: 600;
+  font: normal normal normal 14px/14px "Overpass";
+  .q-item{
+    font-size: 14px;
+    padding: 0px;
+    min-height: 0px;
+    text-align: center;
+    font-weight: 900;
+
+  }
+}
+
+.recentProject {
+  border-bottom: 1px solid $base-dark;
+}
+
+.q-checkbox__bg {
+  border: 1px solid currentColor !important
+}
+
+.q-checkbox--dense .q-checkbox__label {
+  padding-left: 0.5em;
+  padding-top: 0.4em;
+}
+
+
+.title-recentProject {
+  font-family: $unnamed-font-family-overpass;
+  letter-spacing: $unnamed-character-spacing-0;
+  color: $dark-text;
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0px;
+  color: #31484C;
+  text-transform: uppercase;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.menu-bar {
+  background: $base !important;
+  border-radius: 0px !important;
+  color: $dark-text;
+  text-align: left;
+  font-family: "Overpass";
+  font-weight: $unnamed-font-weight-300;
+  letter-spacing: 0px;
+  top: 30.7px !important;
+
+}
+
+.menu-options{
+  color: $mid-text;
+  font-family: $unnamed-font-family-overpass;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.menuBar.non-selectable {
+  height: 30px;
+  justify-items: normal;
+  justify-content: right;
+  padding: 5px;
+  width: 55px;
+  text-align: center;
+  margin: 0px;
+  margin-left: 0px;
+
+}
+
+.projectMenuBar {
+  background: $base !important;
+  border-radius: 0px !important;
+  color: $dark-text;
+  text-align: left;
+  font-family: "Overpass";
+  font-weight: $unnamed-font-weight-300;
+  letter-spacing: 0px;
+  top: 30.7px !important;
+  left: 111px !important;
+
+}
+.menuBar.non-selectable:hover {
+  background-color: $base-dark;
+  height: 30px;
+  justify-items: normal;
+  justify-content: right;
+  padding: 5px;
+  width: 55px;
+  text-align: center;
+  margin: 0px;
+  margin-left: 0px;
+  color: $mid-text
+}
+
+.name-bar {
+  font-size: 16px !important;;
+}
+
+@media (max-width: 600px) {
+  .menuBar.non-selectable {
+    font-size: 13px
+  }
+  .name-bar {
+    display: none;
+  }
+
+}

@@ -1,0 +1,138 @@
+{
+  "id": "demo@0.1.0",
+  "nodes": {
+    "1": {
+      "id": 1,
+      "data": {
+        "color": "green"
+      },
+      "inputs": {},
+      "outputs": {
+        "color": {
+          "connections": [
+            {
+              "node": 4,
+              "input": "a",
+              "data": {}
+            }
+          ]
+        }
+      },
+      "position": [
+        -321.5797896297496,
+        -154.53147382727047
+      ],
+      "name": "Color"
+    },
+    "2": {
+      "id": 2,
+      "data": {},
+      "inputs": {
+        "color": {
+          "connections": [
+            {
+              "node": 4,
+              "output": "result",
+              "data": {}
+            }
+          ]
+        }
+      },
+      "outputs": {},
+      "position": [
+        265.43772511895156,
+        -117.29720249705136
+      ],
+      "name": "Body"
+    },
+    "3": {
+      "id": 3,
+      "data": {},
+      "inputs": {
+        "color": {
+          "connections": [
+            {
+              "node": 4,
+              "output": "result",
+              "data": {}
+            }
+          ]
+        }
+      },
+      "outputs": {},
+      "position": [
+        259.34111686967464,
+        173.81696799427684
+      ],
+      "name": "Wheels"
+    },
+    "4": {
+      "id": 4,
+      "data": {},
+      "inputs": {
+        "a": {
+          "connections": [
+            {
+              "node": 1,
+              "output": "color",
+              "data": {}
+            }
+          ]
+        },
+        "b": {
+          "connections": [
+            {
+              "node": 5,
+              "output": "color",
+              "data": {}
+            }
+          ]
+        }
+      },
+      "outputs": {
+        "result": {
+          "connections": [
+            {
+              "node": 2,
+              "input": "color",
+              "data": {}
+            },
+            {
+              "node": 3,
+              "input": "color",
+              "data": {}
+            }
+          ]
+        }
+      },
+      "position": [
+        -32.46697371762214,
+        25.55852338981346
+      ],
+      "name": "Mix"
+    },
+    "5": {
+      "id": 5,
+      "data": {
+        "color": "yellow"
+      },
+      "inputs": {},
+      "outputs": {
+        "color": {
+          "connections": [
+            {
+              "node": 4,
+              "input": "b",
+              "data": {}
+            }
+          ]
+        }
+      },
+      "position": [
+        -318.3147357568389,
+        211.9209045149937
+      ],
+      "name": "Color"
+    }
+  }
+}
