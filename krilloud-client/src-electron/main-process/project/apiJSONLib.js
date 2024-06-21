@@ -39,7 +39,8 @@ exportLib.KCloseProject = () => {
 
 exportLib.KSaveProject = () => {
   var json = {}
-
+  var op = dllLib.SaveCurrentProject()
+  console.log('Project save')
   return json
 }
 

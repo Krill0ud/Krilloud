@@ -44,7 +44,7 @@ router.post('/close', function (req, res) {
 
 router.post('/save', function (req, res) {
   try {
-    const op = lib.KSaveProject()
+    const op = lib.KSaveCurrentProject()
     res.json(op)
   } catch (e) {
     console.log(e)
